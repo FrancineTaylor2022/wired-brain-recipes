@@ -1,0 +1,22 @@
+
+In gitbash, setting up git configuration. Note: leaving off the "global" willmake the changes local to the project
+
+git config --global user.name "Francine Taylor"
+git config --global user.email "francine.taylor@biamp.com"
+git config --list // you can see all your configuration information
+git config user.name // you can see just that one configuration value
+man git
+git help config // makes this section of the manual pop up in your browser
+
+cd ..
+cd ..
+cd fromBiamp
+cd Pluralsight
+cd CafeRecipes
+
+git init // has marked everything in this folder and subfolders as git controlled
+cd .git
+dir
+   (HEAD config description hooks info objects refs)
+
+
